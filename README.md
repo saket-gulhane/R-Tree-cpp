@@ -19,18 +19,25 @@ ADS Programming Assignment .
  
  #### Representaion of objects in tree
   <p align="center">
-  <img height=400px  src="./sampletree.png" >
-  </p>
-   
-   
- <p align="center">
-  <img height=400px  src="./sampletree.png" >
+  <img height=600px  src="./images/exapmle1.svg" >
   </p>
   
-  #### Output = Best Player: 7, Second Best Player: 11 :heavy_check_mark:
+ #### Typical node structure of nodes in Rtree
+  <p align="center">
+  <img height=250px width=375  src="./images/nodestructure.png" >
+  </p>
+  
+  #### To split the node, in case of full node, we can apply 
+   - Linear split
+   - Quadrratic split
+   - Exponential Split.
+  
+  ##### Here, we have applied Linear split which is more effcient for runtime. But, Exponential split is more efficient in terms of     splitted node area covered.   
+  For complete descussion: "http://www.bowdoin.edu/~ltoma/teaching/cs340/spring08/Papers/Rtree-chap1.pdf"
   
   
-   ## How to Use
+  
+  ### How to Use
  -  main.cpp file contain code for this.
  -  Run that file on any c++ compiler.
  -  or Demo at [http://codepad.org/yO18w5qc](http://codepad.org/yO18w5qc)
