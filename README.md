@@ -57,20 +57,16 @@ ADS Programming Assignment .
   ### Runtime complexity
   - Search: average complexity is <a href="https://www.codecogs.com/eqnedit.php?latex=\O(log_{m}N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\O(log_{m}N)" title="\O(log_{m}N)" /></a>
   - Insert: average complexity is <a href="https://www.codecogs.com/eqnedit.php?latex=\O(log_{2}N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\O(log_{2}N)" title="\O(log_{2}N)" /></a>
-   ##### where m is brach factor, and N is number of nodes in tree. 
+   ##### where m is branch factor, and N is number of nodes in tree. 
   
   #### To split the node, in case of full node, we can apply 
    - Linear split <a href="https://www.codecogs.com/eqnedit.php?latex=\log_{e}{N}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\log_{e}{N}" title="\log_{e}{N}" /></a> 
    - Quadrratic split, checking every possible partition, complexity <a href="https://www.codecogs.com/eqnedit.php?latex=O((M&plus;1)^{2})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O((M&plus;1)^{2})" title="O((M+1)^{2})" /></a>
    - Exponential Split <a href="https://www.codecogs.com/eqnedit.php?latex=O(2^{M&plus;1})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(2^{M&plus;1})" title="O(2^{M+1})" /></a>
-   ##### where m is brach factor, and N is number of nodes in tree. 
+   ##### where m is branch factor, and N is number of nodes in tree. 
   
   ##### Here, we have applied Linear split which is more effcient for runtime. But, Exponential split is more efficient in terms of     splitted node area covered.   
-  For complete descussion: "http://www.bowdoin.edu/~ltoma/teaching/cs340/spring08/Papers/Rtree-chap1.pdf"
+  For complete descussion: 
+  - "http://www.bowdoin.edu/~ltoma/teaching/cs340/spring08/Papers/Rtree-chap1.pdf"
+  - "http://www.mathcs.emory.edu/~cheung/Courses/554/Syllabus/3-index/R-tree.html"
   
-
-## Author
-
-[Nikhil Sahu](https://nikhilsahu.me/) - [@nikhildsahu](https://github.com/nikhildsahu) 
-
-[https://nikhilsahu.me/](https://nikhilsahu.me/)
