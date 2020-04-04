@@ -35,13 +35,22 @@ ADS Programming Assignment .
   ##### Here, we have applied Linear split which is more effcient for runtime. But, Exponential split is more efficient in terms of     splitted node area covered.   
   For complete descussion: "http://www.bowdoin.edu/~ltoma/teaching/cs340/spring08/Papers/Rtree-chap1.pdf"
   
-  
-  
+
   ### How to Use
  -  main.cpp file contain code for this.
  -  Run that file on any c++ compiler.
- -  or Demo at [http://codepad.org/yO18w5qc](http://codepad.org/yO18w5qc)
+ ## Sample input objects(rectangles):
+   - Rect(0, 0, 2, 2), // xmin, ymin, xmax, ymax (for 2 dimensional RTree)
+   - Rect(5, 5, 7, 7),
+   - Rect(8, 5, 9, 6),
+   - Rect(7, 1, 9, 2),
+   - Rect(3, 4, 10, 2),
+   - Rect(4, 4, 2, 2),
+   - Rect(6, 8, 12, 16),
+   - Rect(1, 1, 8, 8),
  
+ ### For Search opeeration:  
+
 ## Author
 
 [Nikhil Sahu](https://nikhilsahu.me/) - [@nikhildsahu](https://github.com/nikhildsahu) 
