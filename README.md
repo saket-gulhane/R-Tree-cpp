@@ -12,9 +12,6 @@ ADS Programming Assignment .
   - Parent nodes contains pointers to their child nodes where region of child nodes completely overlaps the regions of parent nodes.
   - Leaf nodes contains data about the MBR to the current objects.
   - MBR-Minimum bounding region refers to the minimal bounding box parameter surrounding the region/object under consideration.
-
-  - No of comparisions required : (N + log <sub> 2 </sub> N – 2)
-  - Time Complexity : (N + log <sub> 2 </sub> N)
   - Code implemented in C++.
  
  #### Representaion of objects in tree
